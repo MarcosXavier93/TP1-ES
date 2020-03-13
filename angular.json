@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "TP01-ES": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TP01-ES"
+    }
+  },
+  "defaultProject": "TP01-ES",
+  "cli": {
+    "analytics": "cb089afb-4ebd-4094-a330-3aa5bf5469d2"
+  }
 }
