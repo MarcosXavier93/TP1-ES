@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DataBindingComponent } from './data-binding.component';
+import { MatriculaComponent } from './matricula.component';
 
-describe('DataBindingComponent', () => {
-  let component: DataBindingComponent;
-  let fixture: ComponentFixture<DataBindingComponent>;
+describe('MatriculaComponent', () => {
+  let component: MatriculaComponent;
+  let fixture: ComponentFixture<MatriculaComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DataBindingComponent ]
+      declarations: [ MatriculaComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DataBindingComponent);
+    fixture = TestBed.createComponent(MatriculaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
