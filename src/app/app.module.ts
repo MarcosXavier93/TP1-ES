@@ -21,8 +21,7 @@ import { CadastroTreinoComponent } from './cadastro-treino/cadastro-treino.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
-  ],
+    AppRoutingModule ],
   providers: [],
   bootstrap: [AppComponent]
 })
